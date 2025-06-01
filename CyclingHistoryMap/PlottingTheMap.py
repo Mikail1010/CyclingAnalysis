@@ -2,8 +2,7 @@
 
 #  <<<------------------ Getting Your Data from Strava ------------------>>>
 
-!wget https://email.strava.com/ls/click?upn=u001.OTZUsjTDwFHJlyyma-2F9zHAjXyTSRLtZcvYxscJMF0DYGTpmC20CvtcPrH22lzYpQKkTs112QFWQAv5I0OcTLUpMb3UfG3TQkvIyJhNrZH4zVR-2FA2JMRd0MzhGqSpjmrt2gpozDgmx4olNoZwek4fy2X9WoZ1J04GMYVYXUK8Ha-2BZDwJGycWhd5fc-2BhzLRtapj-2FB3-2BMGJVtPurhOywfpoCFZk-2B0Cy3vsJMcDgBzT82E6CSl2fNQjtp7AbvUKmmUnA9Mb0AIkGiMplkLNd0LE5pp0dSpk8kehTdceebOZuGir5S3HeQtQ7tnMv-2ByeZOlZoWikCKLTPoqGx-2BRct7LdTBJwY85wAgdtDmfXw0LYCoWjYcHbG-2By-2BwgEdVk8JRpwC2czNiqj1tbnustcUl2xOilkDdL2dAU3tLQkV1t1Cx3NRL06ihMjWfksnQ7-2BvHIJ8Jc-2FodIwJ1-2F-2B3XOT7JJ0dRgmLKTdF4zF7or2yHOaLSjHU5lxnOXZHAbQ1aWkrgwW52UkQtCB5Z2VKGIlSbE1m-2F3a8EkPN7-2Bx3mqUIpD1PjQA0-3DQGSd_kSEEs2JPzX6tjXwy6QEKnNjMdXujVe6XmNqm5rD8ZBGKMpeQsrr6TWlsbRvs2BWOyoldksJ31HDMUWzL4AyLppQH4a3a6PzpQbx33wRaUwDKtEF6PhutZzS-2Bdxg3BPMZGzfdbGyE3L7bM9Kc-2B1ic6l2OlDS6BEixALqds-2BEGB1uEj76IrUBrjuvEETk1N5rN40JkxP4vn-2FLRJGJ-2FVdc3nnYa5VW2endnOH16sc5qzEQ5i66vSNohy-2Bz6wEzIT-2FMRwcBkoDz9DTT7C0wswa2K-2Ff8Q0z81oI-2FzqREh1LAKXJ3yG6DSRE-2B1fIOecUEZbjxjlfIPMDZ4U1V9YWYurwYjEAhuADcKFrPBgHdajG0qYhs-3D -O export.zip
-
+!wget <Insert Strava Archive Link From Email> -O export.zip
 # The archive link expires after a period. Refer Strava policy for more information
 
 !unzip export.zip -d export > /dev/null
